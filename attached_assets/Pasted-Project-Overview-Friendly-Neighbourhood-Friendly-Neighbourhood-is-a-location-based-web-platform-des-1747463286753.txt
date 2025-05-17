@@ -1,0 +1,58 @@
+Project Overview: Friendly Neighbourhood
+Friendly Neighbourhood is a location-based web platform designed to strengthen local communities by making it easy for people to request and offer help within their area. Whether someone needs assistance moving furniture, borrowing tools, tutoring, or finding a pet sitter — this app allows neighbors to connect and collaborate safely and conveniently.
+
+✅ Core Features
+User Requests:
+Users can create public requests (like “Need help with groceries”) and describe what they need.
+
+Community Responses:
+Other users can browse requests and respond to ones they’re interested in helping with.
+
+Map Integration:
+An interactive map (via React Leaflet) lets users:
+
+View where requests are located
+
+Set or choose a meeting location
+
+Center the map on their current location using geolocation
+
+Responsive UI:
+Clean, mobile-friendly interface using Tailwind CSS v4, ensuring fast performance and modern styling without much configuration.
+
+🛠️ Technical Stack
+Frontend: React + Tailwind CSS v4
+
+Mapping: React Leaflet + OpenStreetMap
+
+Version Control: Git & GitHub
+
+Tooling: Vite (for fast development), npm
+
+Deployment: (Recommended) Vercel, Netlify, or GitHub Pages
+
+💡 Suggested Future Features
+🔐 Authentication: Sign in with Google or email (Firebase Auth or Clerk)
+
+💬 Messaging: In-app chat between requester and helper
+
+📍 Request Filters: Filter requests by category (tools, transport, study help)
+
+🧾 User Profiles: Allow users to track their posted/accepted requests
+
+📅 Calendar Integration: Schedule meetup times for requests
+
+🧠 Reputation System: Ratings or badges for helpful users
+
+🎨 Suggested Professional Theme
+Design Theme: “Friendly but Focused”
+
+Use rounded corners, soft shadows, and warm colors like #4f46e5 (indigo), #22c55e (emerald), or #facc15 (amber).
+
+Use a card-based layout for displaying requests (like a feed).
+
+Typography: use font-sans with varied sizes (e.g., text-2xl for headings, text-base for content).
+
+Navigation bar with: Home, Create Request, My Requests, Map View
+
+Tailwind utility classes like p-4, rounded-2xl, shadow-md, hover:bg-gray-100, etc.
