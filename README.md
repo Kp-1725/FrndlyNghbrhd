@@ -28,37 +28,6 @@ Friendly Neighbourhood is a location-based web platform designed to strengthen l
 - Node.js (v16 or later)
 - npm or yarn
 
-### Installation
-
-1. Clone the repository
-   ```
-   git clone https://github.com/yourusername/friendly-neighbourhood.git
-   cd friendly-neighbourhood
-   ```
-
-2. Install dependencies
-   ```
-   npm install
-   ```
-
-3. Start the development server
-   ```
-   npm run dev
-   ```
-
-4. Open your browser and navigate to `http://localhost:3000`
-
-## Deployment
-
-This project can be easily deployed to Render.com:
-
-1. Push your project to GitHub
-2. Create a new Web Service on Render.com
-3. Connect your GitHub repository
-4. Use the following settings:
-   - Build Command: `npm install && npm run build`
-   - Start Command: `npm start`
-   - Node.js environment
 
 ## Future Features
 
